@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hastane Asistanı</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background-color: #f7f7f7;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem auto;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .card:hover {
+      background-color: #e6f7ff;
+    }
+  </style>
+</head>
+<body>
+<h1>Hastane Asistanı</h1>
+
+<div class="card" onclick="alert('Yatan Hasta Odası bilgileri burada.')">
+  🏥 Yatan Hasta Odası
+</div>
+
+<div class="card" onclick="alert('Navigasyon: Harita yönlendirmesi burada.')">
+  🧭 Navigasyon
+</div>
+
+<div class="card" onclick="alert('Öneri formu buraya gelecek.')">
+  💡 Öneri
+</div>
+</body>
+</html>
